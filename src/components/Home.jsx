@@ -22,7 +22,7 @@ export const Home = () => {
         <div className="my-4">{isAdsense ? <AdsenseMain /> : ""}</div>
         <div>
           <Link className="btn-list" to="/page1">
-            <button className="btn-start">START</button>
+            <button className="btn-start">시작</button>
           </Link>
         </div>
         <article>
