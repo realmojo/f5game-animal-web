@@ -1,8 +1,17 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home";
-import { Board } from "./components/Board";
 import { Result } from "./components/Result";
+import { Page1 } from "./components/Page1";
+import { Page2 } from "./components/Page2";
+import { Page3 } from "./components/Page3";
+import { Page4 } from "./components/Page4";
+import { Page5 } from "./components/Page5";
+import { Page6 } from "./components/Page6";
+import { Page7 } from "./components/Page7";
+import { Page8 } from "./components/Page8";
+import { Page9 } from "./components/Page9";
+import { Page10 } from "./components/Page10";
 
 function App() {
   return (
