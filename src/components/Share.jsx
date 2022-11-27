@@ -40,7 +40,7 @@ export const Share = () => {
         container: "#kakao-link-btn",
         objectType: "feed",
         content: {
-          title: "영적동물 테스트",
+          title: "영적동물 테스트 - F5 Games",
           description: "영적동물을 알려주는 색상 테스트를 해보세요.",
           imageUrl: "https://f5game.s3.ap-northeast-2.amazonaws.com/animal.png",
           link: {
@@ -69,13 +69,6 @@ export const Share = () => {
         <div
           className="twitter-share-button inline"
           style={{ cursor: "pointer" }}
-          onClick={() => {
-            ReactGA.event({
-              category: "SHARE",
-              action: "click",
-              label: "TWITTER",
-            });
-          }}
         >
           <a
             href={`https://twitter.com/intent/tweet?text=영적동물 테스트?&url=https://animal.f5game.co.kr&hashtags=#영적동물#테스트}`}
